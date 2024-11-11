@@ -1,0 +1,442 @@
+#content {
+  justify-content: center;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+  #titulo-principal {
+    color: white;  
+    
+  }
+#imagenheader {
+    width: 40px;
+    height: 40px;
+   
+  }
+ 
+.encabezado {
+display: flex;
+flex-direction: row;
+color: white;
+font-size: small;
+gap: 300px;
+
+}
+.encabezado2 {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  gap: 20px;
+  font-size: 10px;
+  align-items: center;
+  justify-content: 
+  
+  
+  }
+.encabezadofoto
+{
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 10px;
+  justify-content: center;
+  }
+  header {
+  background-color: black;
+  width: 100%;  
+  height: 80px;
+ 
+  
+  }
+#encabezadodatos {
+  
+  
+  }
+  #datos {
+    color: #ffffff;
+    font-size: 40px;
+    max-width: 400px;
+    
+  }
+  #datos2 {
+    color: #ffffff;
+    font-size: 14px;
+    
+  }
+  #datos3 {
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    background-color: #333;
+    width: 180px;
+  }
+  #botonrosa {
+    background-color: #ffebee;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+
+  #botonnegro {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+  #cursorverde:hover {
+    color: 1ed760;
+  }
+  body {
+    background: linear-gradient(to bottom, pink 10px, rgb(18, 18, 18) 300px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+    } 
+   
+
+    li {
+    
+      margin: 28px;
+      
+    }
+    #primeraposicion {
+      font-size: 13px;
+      color: 919496;
+    
+    }
+
+    #verdes:hover{
+      color: 1ed760;
+
+  }
+
+  
+  .note2 {
+    color: #ffffff;
+    font-size: 10px;
+    justify-content: center; 
+    max-width: 330px;
+  }
+
+  #tablaticks {
+        
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    justify-content: center; 
+    width: 390;
+ 
+}
+#ptablaticks {
+  max-width: 460px;
+  color: #ffffff;
+  
+}
+
+.grid-table {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 10px;
+    color: #ffffff;
+    align-items: center;
+    
+}
+#pplanes {
+  color: #ffffff;
+  font-size: 14px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+.grid-table .header {
+    font-weight: bold;
+    color: #ffffff;
+     
+}
+
+.checkmark {
+    text-align: center;
+    color: #ffffff;
+     
+}
+.faq-container {
+
+  width: 55%;
+  color: #ffffff;
+   
+}
+h1 {
+  text-align: center;
+  font-size: 24px;
+   
+}
+.faq-item {
+  border-bottom: 1px solid #333;
+  padding: 15px 0;
+  color: #ffffff ;
+   
+}
+
+#ulbenefits {
+  color: #ffffff;
+  list-style: none;
+}
+.faq-item input[type="checkbox"] {
+  display: none;
+   
+}
+.faq-item label {
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   
+}
+.faq-item label:after {
+  content: '+';
+  font-size: 20px;
+   
+}
+.faq-item input[type="checkbox"]:checked + label:after {
+  content: '-';
+   
+}
+.faq-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;#
+   
+}
+.faq-item input[type="checkbox"]:checked ~ .faq-content {
+  max-height: 200px; 
+   
+}
+.faq-content p {
+  margin: 10px 0 0;
+  font-size: 16px;
+  color: #b3b3b3;
+   
+}
+.faq-item:last-child {
+  
+   
+}
+
+
+.plan-container {
+text-align: center;
+justify-content: center;
+width: 100%;   
+color: #ffffff;
+}
+.plan-container h1 {
+font-size: 28px;   
+
+}
+.plan-container p {
+font-size: 18px;
+color: #b3b3b3;   
+
+}
+
+.benefits-container {
+
+display: flex;   
+justify-content: center;
+flex-direction: row;
+flex: 1;
+gap: 20px;
+align-items: center;
+color: #ffffff;
+max-width: 1000;
+
+}
+.benefits-container h2 {
+font-size: 24px;   
+
+}
+
+.benefits-list p {
+font-size: 18px;
+color: #b3b3b3;   
+}
+
+
+.grid-container {
+display: grid;
+gap: 10px;
+grid-template-columns: repeat(3, 1fr);
+width: 60%;   
+
+}
+#pgrid {
+  color: #ffffff;
+  border-bottom: 2px solid #333;
+  margin: 10px 0;
+  
+}
+
+
+
+.plan-card {
+background-color: 242424;
+border-radius: 10px;
+padding: 20px;   
+color: #fff;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+.plan-card h3 {
+color: #ffffff;
+font-size: 20px;   
+}
+.plan-card h4 {
+color: #ffffff;
+font-size: 24px;
+margin: 5px 0;   
+}
+.plan-card p {
+font-size: 14px;
+color: #ffffff;
+}
+.plan-card ul {
+list-style: none;
+padding: 0;   
+}
+.plan-card ul li {
+margin: 10px 0;   
+}
+.plan-card .cta-button {
+
+padding: 10px;
+font-size: 16px;
+color: rgb(0, 0, 0);
+background-color: ffc862;
+border: none;
+border-radius: 20px;
+cursor: pointer;
+text-align: center;   
+
+}
+.cta-button.secondary {
+background-color: c4b1d4;   
+color: #000;
+}
+.cta-button.tertiary {
+background-color: ffd2d7;
+color: black;   
+}
+.cta-button.fifth {
+background-color: a5bbd1;   
+color: black;
+}
+
+.note {
+font-size: 8px;
+color: #5e5d5d;  
+justify-content: center; 
+max-width: 330px;
+}
+#titulitogrid {
+background-color: ffd2d7;
+color: #121212;
+font-weight: bold;
+text-align: center;
+padding: 5px;
+border-radius: 8px 8px 0 0;
+font-size: 14px;   
+}
+#titulitogrid2 {
+background-color: c4b1d4;
+color: #000000;
+font-weight: bold;
+text-align: center;
+padding: 5px;
+border-radius: 8px 8px 0 0;
+font-size: 14px;   
+}
+#titulitogrid3 {
+color: ffc862;   
+}
+#titulitogrid4 {
+color: a5bbd1;
+
+}
+#titulitogrid0 {
+color: ffd2d7 ;
+}
+#titulitogrid1 {
+color: c4b1d4 ;
+}
+  
+      
+      #Finalfooter {
+        
+        font-size: 10px ;
+        white-space: nowrap;
+        max-width: 10px;
+        list-style: none;
+       display: flex;
+       flex-direction: row;
+       width: 80%;
+       justify-content: right;
+       margin-left: auto;
+      }
+      .footer {
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        color: #fff;
+        padding: 10px;
+        width: 100%;
+        
+      }
+      #firma {
+        font-size: 10px ;
+        white-space: nowrap;
+        max-width: 1px;
+        list-style: none;
+      
+        
+
+      }
+      #ORIGINALFOOTERS {
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        color: #fff;
+        padding: 10px;
+        width: 100%;
+        justify-content: center ;
+  
+      }
+      #imagenfooter {
+        width: 40px;
+        height: 40px;
+  
+      }
+      #titulo-footer {
+        color: white; 
+       font-size: 25px;
+      
+      }
+      #Listafooter {
+        
+        font-size: 15px ;
+        white-space: normal;
+        max-width: 170px;
+        list-style: none;
+        padding: 10px; 
+      }
